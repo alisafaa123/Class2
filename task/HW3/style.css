@@ -2,9 +2,35 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    /*  collection 1*/
+    --var1: #181C14;
+    --var2: #ECDFCC ;
+    --var3:#3C3D37 ;
+    --var4: #697565;
+    /*  collection 2*/
+    --var5: #021526;
+    --var6: #0e509f ;
+    --var7:#6EACDA ;
+    --var8: #E2E2B6;
+    /*  collection 3*/
+    --var9: #030637;
+    --var10: #3C0753 ;
+    --var11:#814d73a4 ;
+    --var12: #910A67;
+     /*  collection 4*/
+     --var13: #352F44;
+     --var14: #5C5470 ;
+     --var15:#B9B4C7 ;
+     --var16: #FAF0E6;
+}
+body{
+    background-color: var(--var13);
+    color: var(--var16);
 
+}
 header {
-    background-color: rgb(0, 255, 255);
+    background-color: var(--var15);
     position:fixed;
     width: 100%;
 }
@@ -21,7 +47,7 @@ header .contant {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 66px;
+    height: 86px;
 }
 
 header .option {
@@ -35,7 +61,7 @@ header .option .other {
 
 .body {
     padding-top: 90px;
-    background-color: rgba(0, 255, 255, 0.055);
+    background-color: var(--var15);
     height: 190px;
 }
 .body h1 {
@@ -50,7 +76,7 @@ header .option .other {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
-    margin-top: -20px;
+    margin-top: -40px;
 
 }
 
@@ -58,10 +84,20 @@ header .option .other {
     border-radius: 20px;
     width: 100%;
 }
-
+.items .card p {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+}
+.items .card a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: var(--var4);
+    text-decoration: none;
+ }
 .footer {
+    background-color: var(--var15);
     margin-top: 20px;
-    border-top: 2px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
 }
 
 .footer .contant {
@@ -75,12 +111,15 @@ header .option .other {
     align-items: center;
     display: flex;
     font-size: 30px;
+ 
 }
 
 .footer .medui .icon {
     margin-left: 16px;
     background-color: rgb(58, 52, 52);
-    border-radius: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
     @media screen and (max-width: 1000px){
