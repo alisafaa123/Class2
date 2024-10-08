@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;
 }
-
+:root {
+    /*  collection 1*/
+    --var1: #181C14;
+    --var2: #ECDFCC ;
+    --var3:#3C3D37 ;
+    --var4: #697565;
+    /*  collection 2*/
+}
+body{
+    background-color: var(--var1);
+}
 .container{
     padding-left: 20px;
     padding-right: 20px;
@@ -22,11 +32,11 @@ header img{
 }
 .options .contant{
  border-top: 1px solid rgb(147, 147, 147);
- background-color: rgba(108, 108, 108, 0.411);
+ background-color:var(--var2);
 }
 
 .options .icon{
-    background-color: rgba(63, 61, 61, 0.333);
+    background-color: var(--var3);
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -40,7 +50,7 @@ header img{
 }
 .text{
     margin-top: 20px;
-    background-color: rgba(80, 79, 78, 0.411);
+    background-color: var(--var4);
     width: 100%;
     height: 80px;
     border-radius: 10px;
@@ -81,13 +91,13 @@ header img{
     border-radius: 10px;
     width: 100%;
     height: 350px;
-    background-color: rgba(80, 79, 78, 0.411);
+    background-color: var(--var4);
     margin-bottom: 25px;
 }
 .item2{
     border-radius: 10px;
     width: 100%;
     height: 150px;
-    background-color: rgba(80, 79, 78, 0.705);
+    background-color: var(--var2);
     margin-bottom: 25px;
 }
