@@ -12,11 +12,12 @@ header{
     margin: auto;
 }
 .content{
-    height: 150px;
-    align-items: center;
+    height: 100px;
+    align-items: flex-end;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 header .option {
     width: 150px;
@@ -41,13 +42,13 @@ header .option {
     grid-template-columns: 70% 30%;
     grid-gap: 10px;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .body .user .img{
     background-color: rgb(77, 83, 88);
     width: 100%;
     border-radius: 10px;
-    height: 275px;
+    height: 278px;
 }
 
 .body .text{
@@ -61,6 +62,7 @@ header .option {
 .footer{
     width: 100%;
     height: 110px;
-    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
     background-color: rgb(112, 113, 114);
 }
