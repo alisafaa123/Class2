@@ -2,8 +2,24 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    /*  collection 1*/
+    --var1: #181C14;
+    --var2: #ECDFCC ;
+    --var3:#3C3D37 ;
+    --var4: #697565;
+    /*  collection 2*/
+    --var5: #021526;
+    --var6: #0e509f ;
+    --var7:#6EACDA ;
+    --var8: #E2E2B6;
+
+}
+body{
+    background-color: var(--var5);
+}
 header{
-    background-color: rgb(112, 113, 114);
+    background-color: var(--var7);
 }
 .container{
     padding-left: 40px;
@@ -25,7 +41,7 @@ header .option {
     right: 0;
 }
 .icon{
-    background-color: aqua;
+    background-color: var(--var5);
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -35,9 +51,10 @@ header .option {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-gap: 10px;
+    color: var(--var8);
 }
 .body .user .img{
-    background-color: rgb(77, 83, 88);
+    background-color: var(--var6);
     height: 190px;
     width: 188px;
     margin-top: -65px;
@@ -52,13 +69,13 @@ header .option {
 .title .t1{
     width: 300px;
     height: 44px;
-    background-color: rgb(77, 83, 88);
+    background-color: var(--var6);
     border-radius: 5px;
 }
 .title .t2{
     width: 150px;
     height: 44px;
-    background-color: rgb(77, 83, 88);
+    background-color: var(--var6);
     border-radius: 5px;
 }
 
@@ -66,18 +83,18 @@ header .option {
     width: 100%;
     border-radius: 10px;
     height: 160px;
-    background-color: rgb(77, 83, 88);
+    background-color: var(--var6);
     margin-bottom: 20px;
 }
 .body .SecondText .t1{
     width: 20%;
     height: 44px;
-    background-color: rgb(77, 83, 88);
+    background-color: var(--var6);
     border-radius: 5px;
 }
 .body .SecondText .t2{
     width: 70%;
     height: 44px;
-    background-color: rgb(77, 83, 88);
+    background-color: var(--var6);
     border-radius: 5px;
 }
