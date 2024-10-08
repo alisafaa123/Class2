@@ -9,24 +9,22 @@
     max-width: 1200px;
     margin: auto;
 }
-
-
 .body {
    display: grid;
    grid-template-columns: 30% 70%;
    margin-top: 80px;
-   grid-gap: 15px;
+   grid-gap: 10px;
 }
 .body .text {
+    margin-top: 10px;
     width: 100%;
     background-color: rgb(77, 83, 88);
-    height: 100%;
-    margin-top: 10px;
+    height: 510px;
     border-radius: 10px;
 }
+
 .title .img , .title .des  {
     margin-top: 10px;
-    width: 100%;
     border-radius: 10px;
     background-color: rgb(77, 83, 88);
     height: 250px;
