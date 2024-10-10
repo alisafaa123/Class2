@@ -42,6 +42,11 @@ header img{
     border-radius: 50%;
     margin-left: 20px;
 }
+.options .icon:hover{
+    width: 48px;
+    height: 48px;
+    margin-top: -8px;
+}
 .options  .item{
     width: 100%;
     display: flex;
@@ -69,6 +74,9 @@ header img{
     height: 6px;
     border-radius: 10px;
     margin-left: 3px;
+}
+.text:hover{
+    background-color: var(--var2);
 }
 .dotes{
     display: flex;
@@ -100,4 +108,8 @@ header img{
     height: 150px;
     background-color: var(--var2);
     margin-bottom: 25px;
+}
+.item1:hover , .item2:hover{
+    border-radius: 20px;
+    background-color: var(--var3);
 }
