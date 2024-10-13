@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    }
+
+body {
+    background: #FCFCFF;
+}
+
+header {
+    border-bottom: 1px solid rgba(182, 182, 182, 0.459);
+}
+
+.contanier {
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1200px;
+}
+
+.contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 99px;
+}
+header .logo {
+    color: #202142;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo .ci{
+    background-color: #202142;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+header .option a {
+    text-decoration: none;
+    color: #202142;
+    font-size: 16px;
+    margin-left: 16px;
+}
+header .option .active{
+    width: Hug (132px)px;
+    height: Hug (44px)px;
+    padding: 10px 15px 10px 15px;
+    gap: 10px;
+    border-radius: 32px ;
+    background: #F1F1FD;
+}
+header .account .login {
+    width: 81px;
+    height: 49px;
+    opacity: 0px;
+    border: none;
+    background: #FCFCFF;
+    font-size: 16px;
+}
+
+header .account .start {
+    width: 121px;
+    height: 49px;
+    border-radius: 10px;
+    border: none;
+    background: #14203E;
+    color: white;
+    font-size: 16px;
+}
+
+header .fuulOption {
+    display: none;
+}
+
+header .fuulOption button {
+    width: 79px;
+    height: 49px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+    background: #14203E;
+    color: white;
+}
+
+header .fuulOption img {
+    width: 40px;
+}
+
+.body {
+    width: 100%;
+    height: 454px;
+    text-align: center;
+    position: relative;
+}
+.body .days{
+    border-radius: 10px;
+    position: absolute;
+    top: -102px;
+}
+.body .days p{
+    color: #FF6A95;
+}
+.body h1 {
+    margin-top: 120px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    color: #14203E;
+}
+.body p {
+    color: #14203E;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.body select,
+.body input {
+    background: #FFFFFF;
+    height: 58px;
+    padding: 11px 15px;
+    border: 1px solid rgba(139, 139, 139, 0.212);
+    font-size: 18px;
+    box-sizing: border-box;
+    box-shadow: 0 1em 4em rgba(139, 139, 139, 0.212);
+}
+.body select {
+    width: 145px;
+    border-radius: 7px 0px 0px 7px;
+    border-right: none;
+    margin-right: -5px;
+}
+.body input {
+    padding: 11px 55px;
+    background-image: url('chevron-down.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    width: 345px;
+    border-radius: 0px 7px 7px 0px;
+}
+@media screen and (max-width: 848px) {
+    .footer .card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .body h1{
+        font-size: 30px;
+    }
+    .body h1 br{
+        display: none;
+    }
+    .body p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1030px) {
+
+    header .option,
+    header .account {
+        display: none;
+    }
+
+    header .fuulOption {
+        display: block;
+    }
+}
