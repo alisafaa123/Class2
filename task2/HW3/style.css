@@ -343,6 +343,22 @@ header .fuulOption img {
         font-size: 15px;
         line-height: 14px;
     }
+    .contanier{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    header .logo h1{
+    font-size: 26px;
+    line-height: 40.32px;
+}
+    header .fuulOption button {
+    width: 49px;
+    height: 29px;
+}
+
+header .fuulOption img {
+    width: 20px;
+}
 }
 @media screen and (max-width: 538px) {
     .body .text h1{
