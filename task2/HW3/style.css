@@ -593,10 +593,7 @@ text-align: left;
         grid-template-columns: repeat(1, 1fr);
     }
     .hotal .hotal2{
-        padding-left: 0px;
-    }
-    .hotal .part2{
-        width: 100%;
+        display: none;
     }
 }
 
