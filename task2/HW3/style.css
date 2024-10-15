@@ -592,6 +592,12 @@ text-align: left;
     .hotal {
         grid-template-columns: repeat(1, 1fr);
     }
+    .hotal .hotal2{
+        padding-left: 0px;
+    }
+    .hotal .part2{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1030px) {
