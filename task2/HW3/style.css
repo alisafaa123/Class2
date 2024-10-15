@@ -580,6 +580,9 @@ text-align: left;
     left:290px ;
     top: 390px;
 }
+.theOtheroptione{
+    display: none;
+}
 
 @media screen and (max-width: 1167px) {
 
@@ -592,7 +595,12 @@ text-align: left;
     .hotal {
         grid-template-columns: repeat(1, 1fr);
     }
-   
+    .hotal .hotal2{
+        display: none;
+    }
+    .theOtheroptione{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1030px) {
@@ -783,3 +791,18 @@ text-align: left;
         width: 280px;
     }   
 }
+@media screen and (max-width: 636px) {
+   .theOtheroptione img{
+    width: 500px;
+   }
+}
+@media screen and (max-width: 540px) {
+    .theOtheroptione img{
+     width: 400px;
+    }
+ }
+ @media screen and (max-width: 424px) {
+    .theOtheroptione img{
+     width: 300px;
+    }
+ }
