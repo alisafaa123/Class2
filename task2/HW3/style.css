@@ -720,7 +720,7 @@ text-align: left;
         line-height: 14px;
     }
 }
-@media screen and (max-width: 434px) {
+@media screen and (max-width: 500px) {
     .body .media {
     width: 260px;
     height: 260px;
