@@ -687,6 +687,13 @@ text-align: left;
     header .fuulOption img {
         width: 20px;
     }
+    .hotal .hotal1 .comant {
+        right: 50px;
+        top: -30px;
+    }
+    .hotal .part2 {
+        width: 100%;
+     }
 }
 @media screen and (max-width: 470px) {
     .hotal {
@@ -695,6 +702,11 @@ text-align: left;
         align-items: center;
         text-align: center;
     }
+   
+     .hotal .hotal1 .comant {
+       width: 220px;
+    }
+    
 }
 @media screen and (max-width: 538px) {
     .body .text h1 {
@@ -706,7 +718,5 @@ text-align: left;
         font-size: 10px;
         line-height: 14px;
     }
-    .hotal .part2 {
-        width: 100%;
-     }
+   
 }
