@@ -773,6 +773,10 @@ text-align: left;
     height: 22px;
     border-radius: 50%;
 }
+.body .media .info {
+    bottom: -86px;
+    left: 20px;
+}
 }
 @media screen and (max-width: 365px) {
     .about .option .card{
