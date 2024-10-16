@@ -41,11 +41,12 @@ header .logo .ci{
 }
 header .option a {
     text-decoration: none;
-    color: #202142;
+    color: #2021428f;
     font-size: 16px;
     margin-left: 16px;
 }
 header .option .active{
+    color: #202142;
     width: Hug (132px)px;
     height: Hug (44px)px;
     padding: 10px 15px 10px 15px;
@@ -92,7 +93,7 @@ header .fuulOption img {
 
 .body {
     width: 100%;
-    height: 454px;
+    height: 354px;
     text-align: center;
     position: relative;
 }
@@ -140,6 +141,96 @@ header .fuulOption img {
     width: 345px;
     border-radius: 0px 7px 7px 0px;
 }
+.headFO .type{
+    background: #FCFCFF;
+    border: 1px solid #EFEFFF;
+    width: 159px;
+    height: 44px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 15px;
+
+}
+.headFO button{
+    background-color: transparent;
+    border: none;
+    color: #2021428f;
+}
+.headFO .type .active{
+    color: #202142;
+    border-radius: 45px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFFF;
+    height: 40px;
+    width: 50%;
+    box-shadow: 0 1em 3em rgba(139, 139, 139, 0.482);
+}
+.headFO .media{
+    display: flex;
+    align-items: center;
+}
+.headFO .media a {
+    text-decoration:none;
+    margin-right: 20px;
+    color: #2021428f;
+}
+.headFO .media .active {
+    width: Hug (49px)px;
+    height: Hug (49px)px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 32px 0px 0px 0px;
+    border: 1px solid #EFEFFF;
+    border-radius: 50%;
+    color: #202142;
+}
+.headFO .socail{
+    display: flex;
+    align-items: center;
+}
+.headFO .socail .icon{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #EFEFFF;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.headFO .socail .active{
+    border: 1px solid #FF6A95
+}
+.headFO .socail img{
+    width: 19px;
+    height: 19px;
+    padding: 12px 15px 10px 12px;
+}
+.bodyFO .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 18px;
+}
+.bodyFO .cards .item .img{
+    position: relative;
+}
+.bodyFO .cards .item .img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bodyFO .cards .item .logo{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.bodyFO .cards .item .logo img{
+    width: 19px;
+    height: 19px;
+    padding: 12px 15px 10px 12px;
+}
 @media screen and (max-width: 848px) {
     .footer .card {
         grid-template-columns: repeat(2, 1fr);
@@ -160,8 +251,43 @@ header .fuulOption img {
     header .account {
         display: none;
     }
-
     header .fuulOption {
         display: block;
+    }
+    .headFO .contant{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        height: 150px;
+        width: 100%;
+    }
+    .bodyFO .cards{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .bodyFO .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .body h1 {
+        font-size: 20px;
+    }
+    .body p {
+        font-size: 14px;
+    }
+    .body select,
+    .body input {
+      
+        height: 48px;
+        font-size: 12px;
+    }
+    .body select {
+        width: 135px;
+    }
+    .body input {
+        background-position: 10px; 
+        width: 205px;
     }
 }
