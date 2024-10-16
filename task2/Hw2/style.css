@@ -209,6 +209,7 @@ header .fuulOption img {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 18px;
+    margin-bottom: 20px;
 }
 .bodyFO .cards .item .img{
     position: relative;
@@ -238,7 +239,9 @@ header .fuulOption img {
     justify-content: space-between;
 }
 .action img{
-    display: none;
+    width: 19px;
+    height: 19px;
+    padding: 12px 15px 10px 12px;
 }
 .prof img{
     width: 25px;
