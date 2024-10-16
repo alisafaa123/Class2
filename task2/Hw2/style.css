@@ -231,6 +231,30 @@ header .fuulOption img {
     height: 19px;
     padding: 12px 15px 10px 12px;
 }
+
+.info , .prof , .action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action img{
+    display: none;
+}
+.prof img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.prof p{
+    margin-left: 10px;
+}
+.prof p span{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+text-align: left;
+}
 @media screen and (max-width: 848px) {
     .footer .card {
         grid-template-columns: repeat(2, 1fr);
