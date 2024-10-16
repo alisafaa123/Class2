@@ -29,7 +29,11 @@ header {
 
 header .logo {
     color: #14203E3D;
-    font-size: 22px;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.6px;
+    text-align: left;
 }
 
 header .option a {
@@ -42,7 +46,7 @@ header .option a {
 header .account .login {
     width: 111px;
     height: 49px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px ;
     opacity: 0px;
     border: none;
     background: #F6F0E8;
@@ -54,7 +58,7 @@ header .account .start {
     top: 25px;
     left: 1376px;
     gap: 0px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px ;
     opacity: 0px;
     border: none;
     background: #14203E;
@@ -68,7 +72,7 @@ header .fuulOption {
 header .fuulOption button {
     width: 79px;
     height: 49px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px ;
     opacity: 0px;
     border: none;
     background: #14203E;
@@ -106,7 +110,7 @@ header .fuulOption img {
 .body button {
     width: 192px;
     height: 73px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px;
     background: #14203E;
     color: white;
     border: none;
