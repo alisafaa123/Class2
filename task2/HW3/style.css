@@ -630,39 +630,42 @@ header .fuulOption img {
     text-align: center;
     color: #FFFFFF;
 }
-.bord .buttons{
-    display :flex;
+
+.bord .buttons {
+    display: flex;
     text-align: center;
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
 }
-.bord .bt1 button{
+
+.bord .bt1 button {
     color: #FFFFFF;
     font-family: Sora;
     font-size: 18px;
     font-weight: 600;
-    line-height: 22.68px;    
-width: Hug (264px)px;
-height: Hug (56px)px;
-padding: 16px 28px 16px 28px;
-gap: 10px;
-border-radius: 100px ;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border: 1px solid #FFFFFF;
-box-shadow: 0px 8px 23px 0px #4184F73D;
-background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
-display: flex;
-align-items: center;
-justify-content: space-between;
+    line-height: 22.68px;
+    width: Hug (264px)px;
+    height: Hug (56px)px;
+    padding: 16px 28px 16px 28px;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 8px 23px 0px #4184F73D;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
- .bt2 button{
+
+.bt2 button {
     font-family: Sora;
-font-size: 18px;
-font-weight: 600;
-line-height: 22.68px;
-color: #3A8EF6;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    color: #3A8EF6;
     box-shadow: 0px 8px 23px 0px #4184F73D;
     background: #FFFFFF;
     width: Hug (178px)px;
@@ -676,10 +679,94 @@ color: #3A8EF6;
     align-items: center;
     justify-content: space-between;
 }
-.bord img{
+
+.bord img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+}
+
+.ourEmp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.ourEmp .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ourEmp .text h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #031432;
+}
+
+.ourEmp .text p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6C87AE;
+}
+
+.camantemp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.camantemp .item {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.camantemp .item p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #031432;
+}
+.camantemp .item .prof{
+    display: flex;
+    align-items: center;
+}
+.camantemp .item .prof img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.camantemp .item .prof .info{
+    margin-left: 15px;
+}
+.camantemp .item .prof h1{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color: #3A8EF6;
+}
+.camantemp .item .prof p{
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: #6C87AE;
 }
 
 @media screen and (max-width: 1167px) {
@@ -770,7 +857,11 @@ color: #3A8EF6;
         width: 380px;
     }
 }
-
+@media screen and (max-width: 800px) {
+    .camantemp {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 @media screen and (max-width: 700px) {
     .body .text h1 {
         font-size: 25px;
@@ -811,23 +902,26 @@ color: #3A8EF6;
         width: 100%;
     }
 }
+
 @media screen and (max-width: 650px) {
     .bord h1 {
         font-size: 18px;
         line-height: 22px;
     }
-    
+
     .bord p {
         font-size: 12px;
         line-height: 14px;
     }
-    .bord .buttons{
-        display :flex;
+
+    .bord .buttons {
+        display: flex;
         text-align: center;
         justify-content: center;
         flex-direction: column;
     }
 }
+
 @media screen and (max-width: 538px) {
     .body .text h1 {
         font-size: 15px;
@@ -839,6 +933,7 @@ color: #3A8EF6;
         line-height: 14px;
     }
 }
+
 @media screen and (max-width: 470px) {
     .hotal {
         display: flex;
@@ -855,6 +950,7 @@ color: #3A8EF6;
         width: 320px;
     }
 }
+
 @media screen and (max-width: 500px) {
     .body .media {
         width: 260px;
