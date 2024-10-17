@@ -998,7 +998,6 @@ padding-bottom: 40px;
         font-size: 15px;
         line-height: 20px;
     }
-
     .body .text p {
         font-size: 10px;
         line-height: 14px;
@@ -1008,7 +1007,6 @@ padding-bottom: 40px;
     grid-gap: 2px;
 }
 }
-
 @media screen and (max-width: 470px) {
     .hotal {
         display: flex;
@@ -1016,20 +1014,16 @@ padding-bottom: 40px;
         align-items: center;
         text-align: center;
     }
-
     .hotal .hotal1 .comant {
         width: 220px;
     }
-
     .about .option .card {
         width: 320px;
     }
     .service .option {
         grid-template-columns: repeat(1, 1fr);
     }
-
 }
-
 @media screen and (max-width: 500px) {
     .body .media {
         width: 260px;
