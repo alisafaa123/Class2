@@ -39,7 +39,12 @@ header .logo {
 header .option a {
     text-decoration: none;
     color: #14203E;
+    font-family: IBM Plex Sans;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    
     margin-left: 40px;
 }
 
@@ -50,6 +55,11 @@ header .account .login {
     opacity: 0px;
     border: none;
     background: #F6F0E8;
+    font-size: 18px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: center;
 }
 
 header .account .start {
@@ -63,6 +73,11 @@ header .account .start {
     border: none;
     background: #14203E;
     color: white;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+text-align: center;
 }
 
 header .fuulOption {
@@ -123,6 +138,21 @@ header .fuulOption img {
     height: 496px;
 }
 
+
+.footer .title hr{
+    border: none;
+   background: #14203e1c;
+   width: 100px;
+   height: 1px; 
+   margin-top: -10px;
+}
+.footer .title {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 .footer .title h1 {
     font-size: 14px;
     font-weight: 600;
@@ -131,24 +161,6 @@ header .fuulOption img {
     color: #14203E;
     margin-top: -10px;
 }
-
-.footer .title {
-    padding-top: 60px;
-}
-
-.footer .title .hr1 {
-    width: 200px;
-    margin-left: 280px;
-    background: #14203E33;
-}
-
-.footer .title .hr2 {
-    width: 200px;
-    margin-left: 320px;
-    background: #14203E33;
-    margin-left: 720px;
-}
-
 .footer .card {
     margin-top: 20px;
     display: grid;
@@ -173,6 +185,7 @@ header .fuulOption img {
     font-size: 18px;
     line-height: 23.98px;
     text-align: left;
+    padding-left: 5px;
 }
 
 .footer .card p {
@@ -210,9 +223,68 @@ header .fuulOption img {
     .body p{
         font-size: 20px;
     }
+    header .fuulOption button {
+        width: 59px;
+        height: 39px;
+    }
+    header .fuulOption img {
+        width: 30px;
+    }
+    header .logo {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 543px) {
     .footer .card {
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header .fuulOption button {
+        width: 42px;
+        height: 30px;
+    }
+    header .fuulOption img {
+        width: 20px;
+    }
+    header .logo {
+        font-size: 10px;
+    }
+    header  .contant{
+        height: 60px;
+    }
+    .body h1 {
+        margin-top: 100px;
+        font-size: 26px;
+        line-height: 51.94px;
+        margin-bottom: 10px;   
+ }
+    
+    .body p {
+        color: #14203E;
+        font-size: 12px;
+        line-height: 18.6px;
+    }
+    .body {
+        height: 254px;
+    }  
+    .footer .title hr{
+       width: 100%;
+       height: 2px; 
+       margin-top: 30px;
+    }
+    .footer .title {
+       flex-direction: column;
+       padding: 5px;
+
+    }
+    .footer .title h1 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.2px;
+        text-align: center;
+        color: #14203E;
+        margin-top: 30px;
     }
 }

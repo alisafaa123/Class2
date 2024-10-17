@@ -196,6 +196,9 @@ header .fuulOption img {
     border: 1px solid #EFEFFF;
     border-radius: 50%;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .headFO .socail .active{
     border: 1px solid #FF6A95
@@ -203,7 +206,6 @@ header .fuulOption img {
 .headFO .socail img{
     width: 19px;
     height: 19px;
-    padding: 12px 15px 10px 12px;
 }
 .bodyFO .cards{
     display: grid;
