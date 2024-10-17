@@ -78,12 +78,13 @@ header .account button {
     font-weight: 600;
     line-height: 22.68px;
     text-align: left;
+    display: flex;
     align-items: center;
 }
 
 header .account button img {
-    width: 10px;
-    height: 12px;
+    width: 20px;
+    height: 22px;
     margin-right: 5px;
 }
 
@@ -120,7 +121,6 @@ header .fuulOption img {
     text-align: left;
     color: #326db9;
 }
-
 .body .text p {
     font-family: Sora;
     font-size: 16px;
@@ -130,7 +130,6 @@ header .fuulOption img {
     color: #6C87AE;
     margin-bottom: 25px;
 }
-
 .body .text button {
     border: none;
     width: Hug (213px)px;
@@ -144,14 +143,14 @@ header .fuulOption img {
     font-family: Sora;
     font-size: 14px;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
-
 .body .text button img {
-    width: 10px;
-    height: 12px;
+    width: 20px;
+    height: 22px;
     margin-right: 5px;
 }
-
 .body .media {
     position: relative;
     width: 360px;
@@ -160,42 +159,36 @@ header .fuulOption img {
     margin-top: 40px;
     background-color: #5467f80e;
 }
-
 .body .media .img5 {
     position: absolute;
     top: 48px;
     left: 48px;
     width: 260px;
 }
-
 .body .media .img1 {
     position: absolute;
     top: -18px;
     left: 24px;
     width: 30px;
 }
-
 .body .media .img2 {
     position: absolute;
     top: -90px;
     left: 68px;
     width: 80px;
 }
-
 .body .media .img3 {
     position: absolute;
     top: 10px;
     right: 0px;
     width: 90px;
 }
-
 .body .media .img4 {
     position: absolute;
     bottom: -70px;
     right: -40px;
     width: 160px;
 }
-
 .body .media .img6 {
     position: absolute;
     bottom: 28px;
@@ -204,7 +197,6 @@ header .fuulOption img {
     height: 42px;
     border-radius: 50%;
 }
-
 .body .media .info {
     display: flex;
     align-items: center;
@@ -273,11 +265,10 @@ header .fuulOption img {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     margin-bottom: 30px;
+    align-items: center;
 }
 
-.service .option img {
-    width: 100%;
-}
+
 
 .about .text {
     margin-top: 80px;
@@ -492,7 +483,6 @@ header .fuulOption img {
 
 .hotal .part2 {
     margin-top: 40px;
-    width: 440px;
 }
 
 .hotal .hotal2 {
@@ -511,7 +501,11 @@ header .fuulOption img {
     height: 200px;
     border-radius: 50%;
     background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
-
+}
+.hotal .hotal2 .ci4  img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
 }
 
 .hotal .hotal2 .ci3 {
@@ -575,6 +569,7 @@ header .fuulOption img {
 
 .hotal .hotal2 .im3 {
     width: 55px;
+
     height: 55px;
     position: absolute;
     left: 490px;
@@ -597,9 +592,7 @@ header .fuulOption img {
     top: 390px;
 }
 
-.theOtheroptione {
-    display: none;
-}
+
 
 .bord {
     background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
@@ -884,7 +877,7 @@ padding-bottom: 40px;
 
 @media screen and (max-width: 1219px) {
     .service .option {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .body {
@@ -1031,6 +1024,10 @@ padding-bottom: 40px;
     .about .option .card {
         width: 320px;
     }
+    .service .option {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 @media screen and (max-width: 500px) {
